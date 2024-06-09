@@ -1,2 +1,2 @@
-# paolosaracco.github.io
+# Paolo Saracco
 GitHub personal webpage of Paolo Saracco
