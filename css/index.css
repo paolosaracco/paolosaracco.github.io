@@ -7,7 +7,7 @@
 
 /* Links inside the navbar */
 .navbar a {
-  float: right;
+  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -17,7 +17,7 @@
 
 /* The dropdown container */
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 
@@ -35,7 +35,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: black;
 }
 
 /* Dropdown content (hidden by default) */
