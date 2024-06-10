@@ -24,13 +24,13 @@ jobs:
     
       - name: Download files
         run: |
-             wget https://github.com/paolosaracco/MTG-TopRankedDecks/blob/81498093c5b6d3cfd1c6767f34d98902a9f2488b/MtG_project.html
+             wget https://raw.githubusercontent.com/paolosaracco/MTG-TopRankedDecks/main/MtG_project.html
              # etc
              
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site # Where all the static files are located
+          path: ${{ github.workspace }} # Where all the static files are located
     
       - name: Deploy to GitHub Pages
         id: deployment
