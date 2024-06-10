@@ -26,6 +26,11 @@ jobs:
       - name: Download files
         run: |
              wget https://raw.githubusercontent.com/paolosaracco/MTG-TopRankedDecks/main/MtG_project.html
+             wget https://raw.githubusercontent.com/paolosaracco/DataScienceSpecialization/main/08_PracticalMachineLearning/CourseProject/MLProject.html
+             wget https://raw.githubusercontent.com/paolosaracco/DataScienceSpecialization/main/07_RegressionModels/CourseProject/Regression_project.html
+             wget https://raw.githubusercontent.com/paolosaracco/DataScienceSpecialization/main/06_StatisticalInference/CourseProject/BasicInferentialDataAnalysis.html
+             wget https://raw.githubusercontent.com/paolosaracco/DataScienceSpecialization/main/06_StatisticalInference/CourseProject/SimulationExercise.html
+             wget https://raw.githubusercontent.com/paolosaracco/DataScienceSpecialization/main/05_ReproducibleResearch/CourseProject2/ImpactWeatherEvents.html
              # etc
              
       - name: Upload pages artifact
