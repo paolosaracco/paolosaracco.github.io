@@ -1,0 +1,37 @@
+name: grab-my-projects
+
+run-name: ${{ github.actor }} is picking HTML of projects from other repos with GitHub Actions
+
+on: [push]
+
+jobs:
+  deploy:
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+    
+      - uses: actions/checkout@v4
+    
+      - name: Download files
+        run: |
+             wget https://github.com/paolosaracco/MTG-TopRankedDecks/blob/81498093c5b6d3cfd1c6767f34d98902a9f2488b/MtG_project.html
+             # etc
+             
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: / # Where all the static files are located
+    
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
