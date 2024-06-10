@@ -1,6 +1,6 @@
-name: grab-my-projects
+name: workflow
 
-run-name: ${{ github.actor }} is picking HTML of projects from other repos with GitHub Actions
+run-name: ${{ github.actor }} is building his webpage by picking also HTML of projects from other repos with GitHub Actions
 
 on: [push]
 
