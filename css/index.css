@@ -2,9 +2,7 @@
 .header {
   padding: 50px; /* some padding */
   text-align: center; /* center the text */
-  background-image: url('images/Brillantini.jpg');
-  background-size: 150px 150px;
-  background-color: DodgerBlue; /* nice blue background */
+  background: url('images/Brillantini.jpg'), DodgerBlue; /* nice blue background */
   background-poisition: right;
   color: white; /* white text color */
   font-size: 20px; /* text size */
