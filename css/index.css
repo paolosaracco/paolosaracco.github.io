@@ -4,8 +4,8 @@
   text-align: center; /* center the text */
   background: url("/images/Brillantini.jpg"), linear-gradient(to bottom right, DodgerBlue, MidnightBlue); /* adds my picture and a nice blue background */
   background-size: auto 80%, cover; /* my picture occupies 80% of the heigth, the blue background fills */
-  background-position: 95% 50%;/* my picture is  */
-  background-repeat: no-repeat;
+  background-position: 95% 50%; /* my picture is 95% to the right and centered vertically */
+  background-repeat: no-repeat; /* the picture does not repeat */
   color: white; /* white text color */
   font-size: 20px; /* text size */
 }
