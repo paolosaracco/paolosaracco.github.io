@@ -2,10 +2,10 @@
 .header {
   padding: 50px; /* some padding */
   text-align: center; /* center the text */
-  background: url('images/Brillantini.jpg'), linear-gradient(to right, DodgerBlue, MidnightBlue); /* nice blue background */
-  background-size: 30px 30px;
-  background-position: bottom right;
-  background-repeat: no-repeat;
+  background: url("./images/Brillantini.jpg"), linear-gradient(to right, DodgerBlue, MidnightBlue); /* nice blue background */
+  background-size: 30px 30px, 100% 100%;
+  background-position: right, center;
+  background-repeat: no-repeat, no-repeat;
   color: white; /* white text color */
   font-size: 20px; /* text size */
 }
