@@ -3,9 +3,10 @@
   padding: 50px; /* some padding */
   text-align: center; /* center the text */
   background-image: url('images/Brillantini.jpg');
+  background-size: 150px 150px;
   background-color: DodgerBlue; /* nice blue background */
   background-poisition: right;
-  text-color: white; /* white text color */
+  color: white; /* white text color */
   font-size: 20px; /* text size */
 }
 
