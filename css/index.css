@@ -2,9 +2,9 @@
 .header {
   padding: 50px; /* some padding */
   text-align: center; /* center the text */
-  background: url("/images/Brillantini.jpg"), linear-gradient(to bottom right, DodgerBlue, MidnightBlue); /* nice blue background */
-  background-size: auto 80%, cover;
-  background-position: 90% 50%;
+  background: url("/images/Brillantini.jpg"), linear-gradient(to bottom right, DodgerBlue, MidnightBlue); /* adds my picture and a nice blue background */
+  background-size: auto 80%, cover; /* my picture occupies 80% of the heigth, the blue background fills */
+  background-position: 95% 50%;/* my picture is  */
   background-repeat: no-repeat;
   color: white; /* white text color */
   font-size: 20px; /* text size */
