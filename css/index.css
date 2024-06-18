@@ -5,7 +5,7 @@
   background-color: DodgerBlue; /* nice blue background */
   background-image: url('images/Brillantini.jpg');
   background-poisition: right;
-  color: white; /* white text color */
+  text-color: white; /* white text color */
   font-size: 20px; /* text size */
 }
 
