@@ -12,6 +12,20 @@
   font-size: 30px;
 }
 
+.header img {
+  float: right;
+  height: 150px;
+  padding: 20px;
+}
+
+/*
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+*/
+
 /* Footer */
 .footer {
   font-family: 'trebuchet ms', sans-serif;
