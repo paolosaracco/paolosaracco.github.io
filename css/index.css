@@ -1,19 +1,23 @@
 /* Header */
 .header {
-  padding: 50px;
-  text-align: center;
-  background: DodgerBlue;
-  color: white;
+  padding: 50px; /* some padding */
+  text-align: center; /* center the text */
+  background: DodgerBlue; /* nice blue background */
+  color: white; /* white text color */
+  font-size: 20px; /* text size */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
   font-size: 30px;
 }
 
 /* Footer */
 .footer {
-  width: 916px;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 90%;
   height: 28px;
-  padding: 20px 0 5px 0;
+  padding: 20px;
   text-align: center; 
   background: DodgerBlue;
   color: white;
@@ -23,19 +27,20 @@
 
 /* Navbar container */
 .navbar {
-  overflow: hidden;
-  background-color: MidnightBlue;
-  font-family: Arial;
+  overflow: hidden; /* Hide overflow */
+  background-color: MidnightBlue; /* Dark blue background color */
+  font-family: Arial; /* font */
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
   font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /* Remove underline */
 }
 
 /* The dropdown container */
@@ -76,7 +81,7 @@
   float: none;
   color: black;
   padding: 12px 16px;
-  text-decoration: none;
+  text-decoration: none; /* Remove underline */
   display: block;
   text-align: left;
 }
