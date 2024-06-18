@@ -10,7 +10,9 @@
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 30px;
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .header img {
@@ -20,7 +22,6 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto;
 }
 
 /*
