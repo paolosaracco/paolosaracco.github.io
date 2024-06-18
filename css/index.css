@@ -19,7 +19,9 @@
 .header img {
   float: right;
   height: 150px;
-  padding: 10px;
+  position: relative;
+  top: 0;
+  bottom: 0;
 }
 
 /*
