@@ -7,6 +7,20 @@
   font-size: 30px;
 }
 
+/* Footer */
+.footer {
+  width: 916px;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 90%;
+  height: 28px;
+  padding: 20px 0 5px 0;
+  text-align: center; 
+  background: DodgerBlue;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
